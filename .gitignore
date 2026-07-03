@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+
+# Raw data: timestamped archives are large and reproducible from the API.
+# The committed sample snapshot (markets_latest.csv / trades_latest.csv /
+# snapshot_manifest.json) is kept so the workbook builds offline out of the box.
+data/raw/markets_2*.csv
+data/raw/trades_2*.csv

@@ -1,0 +1,15 @@
+{
+  "snapshot_utc": "2026-07-03T02:07:21+00:00",
+  "snapshot_stamp": "20260703_020721",
+  "markets_file": "markets_latest.csv",
+  "trades_file": "trades_latest.csv",
+  "markets_archive": "markets_20260703_020721.csv",
+  "trades_archive": "trades_20260703_020721.csv",
+  "market_count": 100,
+  "sports_market_count": 70,
+  "trade_count": 3000,
+  "sources": {
+    "markets": "https://gamma-api.polymarket.com/markets",
+    "trades": "https://data-api.polymarket.com/trades"
+  }
+}

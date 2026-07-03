@@ -1,0 +1,7 @@
+# Prediction Market Operations Tracker — runtime dependencies
+requests>=2.31      # Polymarket API calls
+pandas>=2.0         # CSV load / snapshot handling
+openpyxl>=3.1       # Excel workbook, formulas, conditional formatting, charts
+
+# Optional (developer/CI verification only — not required to build the workbook):
+# formulas>=1.2     # headless Excel recalc engine used to validate live formulas
